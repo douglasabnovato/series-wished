@@ -3,8 +3,8 @@
 ## O projeto
 
 - Aplicação SPA 
-- controlar lista de desejo de séries de tv 
 - usando Vue.js
+- controlar lista de desejo de séries de tv 
 - consumir uma API Rest
 - manter a sessão no frontend
 - usando o token JWT.
