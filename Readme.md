@@ -23,6 +23,7 @@
 ## Estrutura de pastas
 
 - webserver: projeto backend com api
+- series-wished: projeto frontend web
 
 ## Tecnologias utilizadas
 
