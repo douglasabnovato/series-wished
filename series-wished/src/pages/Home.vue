@@ -6,6 +6,12 @@
 
 <script> 
   export default {
-      name: "Home" 
+      name: "Home",
+      mounted () {
+        this.$http.get('http://www.google.com.br').then(res => {
+          console.log(res.data)
+        })
+      }
+
   };
 </script>
