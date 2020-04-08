@@ -20,6 +20,10 @@
 - [ ] #7 finalizando páginas restantes
 - [ ] #8 adicionando e removendo das listas
 
+## Estrutura de pastas
+
+- webserver: projeto backend com api
+
 ## Tecnologias utilizadas
 
 - Node.js: v.10.15.0
