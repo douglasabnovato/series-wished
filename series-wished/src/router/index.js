@@ -1,18 +1,14 @@
 import Vue from "vue";
-import VueRouter from "vue-router"; 
+import Router from "vue-router";  
 
-Vue.use(VueRouter);
+Vue.use(Router);
 
-const routes = [
-  {
-    path: "/",
-    name: "home",
-    component: () => import(/* webpackChunkName: "about" */ "../pages/Home")
-  } 
-];
-
-const router = new VueRouter({
-  routes
-});
-
-export default router;
+export default new Router ({
+  routes: [
+    {
+      path: "/",
+      name: "home",
+      component: () => import(/* webpackChunkName: "about" */ "../pages/Home")
+    } 
+  ]
+})
