@@ -12,6 +12,8 @@
 ## Tarefas
 
 - [ ] #1 estruturando o projeto
+vue-resource<br/>
+routes<br/>
 - [ ] #2 começando a usar Vuejs no Login
 - [ ] #3 finalizando o fluxo da autenticação
 - [ ] #4 home e watchlist
