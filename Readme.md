@@ -12,7 +12,6 @@
 ## Tarefas
 
 - [ ] #1 estruturando o projeto
-<br/>
 vue-resource<br/>
 routes<br/>
 - [ ] #2 começando a usar Vuejs no Login
