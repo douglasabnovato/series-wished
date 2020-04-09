@@ -12,11 +12,14 @@
 ## Tarefas
 
 - [x] #1 estruturando o projeto
+    - API na pasta webserver: `npm run start` 
+    - Aplicação: `npm run start`
     - vue-resource
     - routes
 - [ ] #2 começando a usar Vuejs no Login
     - API local: pasta webserver : endereço : http://localhost/5000/
     - API no Heroku: https://guarded-headland-11685.herokuapp.com
+    - vuex 
 - [ ] #3 finalizando o fluxo da autenticação
 - [ ] #4 home e watchlist
 - [ ] #5 finalizando watchlist e navbar
