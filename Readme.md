@@ -17,6 +17,7 @@
     - vue-resource
     - routes
 - [ ] #2 começando a usar Vuejs no Login
+    - fluxo de autenticação para manter token na sessão
     - API local: pasta webserver : endereço : http://localhost/5000/
     - API no Heroku: https://guarded-headland-11685.herokuapp.com
     - vuex 
