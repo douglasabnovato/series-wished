@@ -13,7 +13,7 @@
 
 - [x] #1 estruturando o projeto
     - API na pasta webserver: `npm run start` 
-    - Aplicação: `npm run start`
+    - Aplicação: `npm run serve`
     - vue-resource
     - routes
 - [ ] #2 começando a usar Vuejs no Login
