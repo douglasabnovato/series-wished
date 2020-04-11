@@ -20,7 +20,7 @@
     - fluxo de autenticação para manter token na sessão
     - API local: pasta webserver : endereço : http://localhost/5000/
     - API no Heroku: https://guarded-headland-11685.herokuapp.com
-    - design da página Login
+    - desenho da página Login
     - vuex 
 - [ ] #3 finalizando o fluxo da autenticação
 - [ ] #4 home e watchlist
