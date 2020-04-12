@@ -12,8 +12,8 @@
 ## Tarefas
 
 - [x] #1 estruturando o projeto
-    - API na pasta webserver: `npm run start` 
-    - Aplicação: `npm run serve`
+    - API na pasta webserver: `npm run start` : `http://localhost:5000/`
+    - Aplicação: `npm run serve` : `http://localhost:8080/`
     - vue-resource
     - routes
 - [ ] #2 começando a usar Vuejs no Login    
