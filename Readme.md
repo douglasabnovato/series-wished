@@ -16,12 +16,12 @@
     - Aplicação: `npm run serve`
     - vue-resource
     - routes
-- [ ] #2 começando a usar Vuejs no Login
-    - fluxo de autenticação para manter token na sessão
+- [ ] #2 começando a usar Vuejs no Login    
     - API local: pasta webserver : endereço : http://localhost/5000/
     - API no Heroku: https://guarded-headland-11685.herokuapp.com
     - desenho da página Login
     - vuex 
+    - fluxo de autenticação para manter token na sessão
 - [ ] #3 finalizando o fluxo da autenticação
 - [ ] #4 home e watchlist
 - [ ] #5 finalizando watchlist e navbar
