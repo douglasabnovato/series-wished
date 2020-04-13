@@ -22,6 +22,7 @@
 </template>
 
 <script>
+
     export default {
         data: () => ({
             form: {
@@ -35,6 +36,7 @@
             }
         }
     }
+
 </script>
 <style scoped lang="scss">
     .login-page {
