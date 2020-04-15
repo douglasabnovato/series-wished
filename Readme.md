@@ -21,6 +21,7 @@
     - API no Heroku: `https://guarded-headland-11685.herokuapp.com`
     - desenho da página Login
     - rota de: Login e Home
+    - store: index.js, actions.js, mutation.types.js, mutations.js, state.js
     - Vuex 
     - fluxo de autenticação para manter token na sessão
 - [ ] #3 finalizando o fluxo da autenticação
