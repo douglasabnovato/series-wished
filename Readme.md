@@ -2,6 +2,7 @@
 
 ## O projeto
 
+- Vue.js, Vuex e autenticação com API Rest 
 - Aplicação SPA 
 - usando Vue.js
 - controlar lista de desejo de séries de tv 
