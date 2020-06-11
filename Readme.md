@@ -12,11 +12,15 @@
 
 ## Tarefas
 
-- [ ] #1 estruturando o projeto
+- [x] #1 estruturando o projeto
 - [x] API na pasta webserver: `npm run start` : `http://localhost:5000/`
+- [x] Criar a aplicação vuejs : `vue create series-wished`
 - [x] Aplicação: `npm run serve` : `http://localhost:8080/`
-- [ ] vue-resource
-- [ ] routes
+- [x] Versões : npm v6.13.7 e node v13.2.0
+- [x] Dependências : `npm install --save bootstrap vue-resource`
+- [x] Vuex : gerenciador de estado global da aplicação
+- [x] Fonts Google : mandali
+- [x] Até o minuto 11:36 é para estruturar o projeto.
 - [ ] #2 começando a usar Vuejs no Login    
 - [ ] API local: pasta webserver : endereço : `http://localhost/5000/`
 - [ ] API no Heroku: `https://guarded-headland-11685.herokuapp.com`
