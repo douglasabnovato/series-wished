@@ -36,10 +36,10 @@
             }
         }), 
         methods: {
-            ...mapActions('auth', ['ActionSetUser']),
+            ...mapActions('auth', ['ActionDoLogin']),
         
             submit () {
-                console.log(this.form)
+                this.ActionDoLogin(this.form)
             }
         }
     }

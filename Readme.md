@@ -24,14 +24,14 @@
 - [x] vue-resource para fazer as requisições para API Rest usada na aplicação
 - [x] http/index.js - VueResource
 
-- [ ] #2 começando a usar Vuejs no Login    
+- [x] #2 começando a usar Vuejs no Login    
 - [x] API local: pasta webserver : endereço : `http://localhost/5000/`
 - [x] API no Heroku: `https://guarded-headland-11685.herokuapp.com`
 - [x] desenho da página Login
 - [x] rota de: Login e Home
 - [x] store: index.js, actions.js, mutation.types.js, mutations.js, state.js
 - [x] Vuex para autentivação
-- [ ] fluxo de autenticação para manter token na sessão
+- [x] fluxo de autenticação para manter token na sessão
 
 - [ ] #3 finalizando o fluxo da autenticação
 - [ ] #4 home e watchlist
