@@ -1,3 +1,5 @@
+import * as types from './mutation-types'
+
 export const ActionSetUser = ( { commit }, payload ) => {
-    commit()
+    commit(types.SET_USER, payload)
 }
