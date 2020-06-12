@@ -22,7 +22,7 @@
 - [x] Fonts Google : mandali
 - [x] Até o minuto 11:36 é para estruturar o projeto.
 - [x] vue-resource para fazer as requisições para API Rest usada na aplicação
-- [x] http/index.js - 
+- [x] http/index.js - VueResource
 - [ ] #2 começando a usar Vuejs no Login    
 - [ ] API local: pasta webserver : endereço : `http://localhost/5000/`
 - [ ] API no Heroku: `https://guarded-headland-11685.herokuapp.com`
