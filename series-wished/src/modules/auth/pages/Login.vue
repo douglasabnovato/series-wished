@@ -34,10 +34,7 @@
                 email: '',
                 password: ''
             }
-        }),
-        created () {
-            this.ActionSetUser({ name: 'Douglas', email: 'douglas@email.com'})
-        },
+        }), 
         methods: {
             ...mapActions('auth', ['ActionSetUser']),
         
