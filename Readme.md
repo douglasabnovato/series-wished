@@ -12,7 +12,7 @@
 
 ## Tarefas
 
-- [x] #1 estruturando o projeto
+- #1 estruturando o projeto
 - [x] API na pasta webserver: `npm run start` : `http://localhost:5000/`
 - [x] Criar a aplicação vuejs : `vue create series-wished`
 - [x] Aplicação: `npm run serve` : `http://localhost:8080/`
@@ -24,7 +24,7 @@
 - [x] vue-resource para fazer as requisições para API Rest usada na aplicação
 - [x] http/index.js - VueResource
 
-- [x] #2 começando a usar Vuejs no Login    
+- #2 começando a usar Vuejs no Login    
 - [x] API local: pasta webserver : endereço : `http://localhost/5000/`
 - [x] API no Heroku: `https://guarded-headland-11685.herokuapp.com`
 - [x] desenho da página Login
@@ -32,7 +32,6 @@
 - [x] store: index.js, actions.js, mutation.types.js, mutations.js, state.js
 - [x] Vuex para autentivação
 - [x] fluxo de autenticação para manter token na sessão
-
 - [ ] #3 finalizando o fluxo da autenticação
 - [ ] #4 home e watchlist
 - [ ] #5 finalizando watchlist e navbar
