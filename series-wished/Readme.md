@@ -1,1 +1,1 @@
-Frontend Web em Vuejs
+Front-End Web em Vuejs

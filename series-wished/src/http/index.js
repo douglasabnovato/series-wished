@@ -5,8 +5,6 @@ Vue.use(VueResource)
 
 const http = Vue.http
 
-http.options.root = 'http://localhost:5000/'
-/*'http://localhost:5000/'
-'https://guarded-headland-11685.herokuapp.com'*/
+http.options.root = 'http://localhost:5000/' 
 
 export { http }
