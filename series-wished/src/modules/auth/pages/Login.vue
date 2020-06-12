@@ -39,7 +39,9 @@
             ...mapActions('auth', ['ActionDoLogin']),
         
             submit () {
-                this.ActionDoLogin(this.form)
+                this.ActionDoLogin(this.form).then(res => {
+                    console.log(res.data)
+                })
             }
         }
     }

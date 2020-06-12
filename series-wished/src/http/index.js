@@ -13,7 +13,6 @@ http.options.root = 'http://localhost:5000/'
 
 Object.keys(services).map(service => {
    services[service] = Vue.resource('', {}, services[service])
-
 })
 
 export { http } 
