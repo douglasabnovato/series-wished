@@ -25,9 +25,9 @@
 - [x] http/index.js - VueResource
 
 - [ ] #2 começando a usar Vuejs no Login    
-- [ ] API local: pasta webserver : endereço : `http://localhost/5000/`
-- [ ] API no Heroku: `https://guarded-headland-11685.herokuapp.com`
-- [ ] desenho da página Login
+- [x] API local: pasta webserver : endereço : `http://localhost/5000/`
+- [x] API no Heroku: `https://guarded-headland-11685.herokuapp.com`
+- [x] desenho da página Login
 - [ ] rota de: Login e Home
 - [ ] store: index.js, actions.js, mutation.types.js, mutations.js, state.js
 - [ ] Vuex para autentivação
