@@ -1,8 +1,11 @@
 import services from '@/http'
 import * as types from './mutation-types'
 
-export const ActionDoLogin = (context, payload) => {
-    return services.auth.login(payload)
+export const ActionDoLogin = ({ dispatch }, payload) => {
+    return services.auth.login(payload).then(res => {
+        dispatch(`ActionSetUser`, res.data.user)
+        dispatch(`ActionSetToken`, res.data.token)
+    })
 }
 
 export const ActionSetUser = ( { commit }, payload ) => {

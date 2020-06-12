@@ -39,13 +39,14 @@
             ...mapActions('auth', ['ActionDoLogin']),
         
             submit () {
-                this.ActionDoLogin(this.form).then(res => {
-                    console.log(res.data)
-                })
+                this.ActionDoLogin(this.form)
             }
         }
     }
-
+/* Para teste
+  "name": "Claudina Thomke",
+  "email": "cthomke2@cnbc.com",
+  "password": "dNN8jTD"*/
 </script>
 <style scoped lang="scss">
     .login-page {
