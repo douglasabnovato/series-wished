@@ -1,6 +1,6 @@
 # series wished
 
-## O projeto
+## Um projeto Vuejs
 
 - Vue.js, Vuex e autenticação com API Rest 
 - Aplicação SPA 
