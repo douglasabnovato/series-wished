@@ -1,4 +1,5 @@
 import services from '@/http'
+import * as storage from '../storage'
 import * as types from './mutation-types'
 
 export const ActionDoLogin = ({ dispatch }, payload) => {
@@ -13,5 +14,6 @@ export const ActionSetUser = ( { commit }, payload ) => {
 }
 
 export const ActionSetToken = ( { commit }, payload ) => {
+    storage.setHeaderToken(payload)
     commit(types.SET_TOKEN, payload)
 }
