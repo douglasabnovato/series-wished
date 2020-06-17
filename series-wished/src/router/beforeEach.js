@@ -12,8 +12,7 @@ export default async (to, from, next) => {
         if(to.name === 'login' && store.getters['auth/hasToken']){
             next({ name: 'home' })
         }else {
-            next({ name: 'login' })
+            next()
         }
-    }
-    next()
+    } 
 }
