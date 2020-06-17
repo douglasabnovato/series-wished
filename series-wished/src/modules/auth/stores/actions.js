@@ -9,13 +9,26 @@ export const ActionDoLogin = ({ dispatch }, payload) => {
     })
 }
 
+export const ActionCheckToken = ({ dispatch, state }) => {
+    if(state.token){
+        return Promise.resolve(state.token)
+    }
+    const token = storage.getLocalToken()
+
+    if(!token){
+        return Promise.reject(new Error('Token Inválido.'))
+    }
+
+    dispatch('ActionSetToken', token)
+    return dispatch('ActionLoadSession')
+}
+
 export const ActionLoadSession = ({ dispatch }) => {
     return new Promise(async ( resolve, reject ) => {
         try{
-            const { data: { token, user }} = await services.auth.loadSession()
+            const { data: { user }} = await services.auth.loadSession()
 
-            dispatch('ActionSetUser', user)
-            dispatch('ActionSetToken', token)
+            dispatch('ActionSetUser', user) 
 
             resolve()
         } catch (err) {
