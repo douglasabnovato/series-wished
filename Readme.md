@@ -1,14 +1,14 @@
 # series wished
 
-## Um projeto Vuejs
+## Um projeto em Vuejs
 
-- Vue.js, Vuex e autenticação com API Rest 
-- Aplicação SPA 
-- usando Vue.js
+- Vue.js 
+- Aplicação SPA  
 - controlar lista de desejo de séries de tv 
+- Vuex e autenticação com API Rest
 - consumir uma API Rest
 - manter a sessão no frontend
-- usando o token JWT.
+- usando o token JWT
 
 ## Tarefas
 
