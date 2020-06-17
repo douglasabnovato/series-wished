@@ -9,11 +9,22 @@ export const ActionDoLogin = ({ dispatch }, payload) => {
     })
 }
 
+export const ActionLoadSession = ({ dispatch }) => {
+    return new Promise(async ( resolve, reject ) => {
+        try{
+            await services.auth.loadSession()
+        } catch (err) {
+
+        }
+    })
+}
+
 export const ActionSetUser = ( { commit }, payload ) => {
     commit(types.SET_USER, payload)
 }
 
 export const ActionSetToken = ( { commit }, payload ) => {
-    storage.setHeaderToken(payload)
+    storage.setLocalToken(payload)
+    storage.setHeaderToken(payload)    
     commit(types.SET_TOKEN, payload)
 }

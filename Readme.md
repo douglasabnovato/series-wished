@@ -35,6 +35,7 @@
 
 - #3 finalizando o fluxo da autenticação
 - [ ] como funciona uma api rest
+- [ ] armazenar o token da sessão: application, localstorage
 
 - [ ] #4 home e watchlist
 - [ ] #5 finalizando watchlist e navbar
