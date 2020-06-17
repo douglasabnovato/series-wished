@@ -32,7 +32,10 @@
 - [x] store: index.js, actions.js, mutation.types.js, mutations.js, state.js
 - [x] Vuex para autentivação
 - [x] fluxo de autenticação para manter token na sessão
-- [ ] #3 finalizando o fluxo da autenticação
+
+- #3 finalizando o fluxo da autenticação
+- [ ] como funciona uma api rest
+
 - [ ] #4 home e watchlist
 - [ ] #5 finalizando watchlist e navbar
 - [ ] #6 finalizando página da série
