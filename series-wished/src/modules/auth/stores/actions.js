@@ -12,9 +12,15 @@ export const ActionDoLogin = ({ dispatch }, payload) => {
 export const ActionLoadSession = ({ dispatch }) => {
     return new Promise(async ( resolve, reject ) => {
         try{
-            await services.auth.loadSession()
-        } catch (err) {
+            const { data: { token, user }} = await services.auth.loadSession()
 
+            dispatch('ActionSetUser', user)
+            dispatch('ActionSetToken', token)
+
+            resolve()
+        } catch (err) {
+            dispatch('ActionSignOut')
+            reject(err)
         }
     })
 }
@@ -27,4 +33,11 @@ export const ActionSetToken = ( { commit }, payload ) => {
     storage.setLocalToken(payload)
     storage.setHeaderToken(payload)    
     commit(types.SET_TOKEN, payload)
+}
+
+export const ActionSignOut = ({ dispatch }) => {
+    storage.setHeaderToken('')
+    storage.deletLocalToken()
+    dispatch('ActionSetUser', {})
+    dispatch('ActionSetToken', '')
 }
