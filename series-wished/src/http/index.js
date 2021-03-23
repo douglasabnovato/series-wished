@@ -19,5 +19,6 @@ const setBearerToken = token => {
    http.headers.common["Authorization"] = `Bearer ${token}`;
 }
 
-export default services;
+
 export { http, setBearerToken }; 
+export default services;
