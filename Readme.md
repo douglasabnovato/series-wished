@@ -53,8 +53,8 @@
 
 ### 3 finalizando o fluxo da autenticação
 
-- [ ] como funciona uma api rest
-- [ ] armazenar o token da sessão: application, localstorage
+- [x] como funciona uma api rest
+- [x] armazenar o token da sessão: application, localstorage
 
 ### 4 home e watchlist
 

@@ -9,4 +9,4 @@ const router = new Router ({ routes })
 
 router.beforeEach(beforeEach)
 
-export default router
+export default router  
