@@ -7,7 +7,7 @@
 </h4> 
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/douglasabnovato/site-estatico-reactjs?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/douglasabnovato/series-wished?color=%2304D361">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/douglasabnovato/series-wished">
   <a href="https://www.twitter.com/douglasabnovato/">
     <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%douglasabnovato%2Fseries-wished">
