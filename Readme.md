@@ -97,7 +97,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode][vsco
 
 ```bash 
 # Clone este repositório
-$ git clone https://github.com/douglasabnovato/series-wished
+$ git clone https://github.com/douglasabnovato/series-wished/series-wished
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd series-wished
@@ -106,7 +106,26 @@ $ cd series-wished
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$  
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+### 🧭 Rodando a aplicação web (Back End)
+
+```bash 
+# Clone este repositório
+$ git clone https://github.com/douglasabnovato/series-wished/webserver
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd webserver
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$  
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
