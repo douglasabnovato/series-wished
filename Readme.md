@@ -59,6 +59,9 @@
 
 ### 4 home e watchlist
 
+- [x] material.io - icons: npm install --save material-design-icons
+- [x] http://google.github.io/material-design-icons/
+
 - [ ] #5 finalizando watchlist e navbar
 - [ ] #6 finalizando página da série
 - [ ] #7 finalizando páginas restantes

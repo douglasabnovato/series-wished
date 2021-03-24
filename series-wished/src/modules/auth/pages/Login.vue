@@ -1,6 +1,5 @@
 <template>
-    <div class="home">
-        <h1>My Login</h1>
+    <div class="home"> 
         <form @submit.prevent="submit()">
             <div class="login-page">
                 <div class="card">
