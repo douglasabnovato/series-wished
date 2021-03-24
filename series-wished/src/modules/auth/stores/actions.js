@@ -4,8 +4,8 @@ import * as types from "./mutation-types";
 
 export const ActionDoLogin = ({ dispatch }, payload) => {
     return services.auth.login(payload).then(res => {
-        dispatch(`ActionSetUser`, res.data.user);
-        dispatch(`ActionSetToken`, res.data.token);
+        dispatch('ActionSetUser', res.data.user);
+        dispatch('ActionSetToken', res.data.token);
     })
 }
 
@@ -15,7 +15,7 @@ export const ActionCheckToken = ({ dispatch, state }) => {
     }
     const token = storage.getLocalToken();
 
-    if(!token){
+    if(!token){ 
         return Promise.reject(new Error('Token Inválido.'));
     }
 
@@ -27,11 +27,11 @@ export const ActionLoadSession = ({ dispatch }) => {
     return new Promise(async ( resolve, reject ) => {
         try{
             const { data: { user }} = await services.auth.loadSession();
-            dispatch('ActionSetUser', user)  ;
+            dispatch('ActionSetUser', user); 
             resolve();
         } catch (err) {
             dispatch('ActionSignOut');
-            reject(err);
+            reject(err); 
         }
     })
 }
