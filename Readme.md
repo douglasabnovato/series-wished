@@ -55,7 +55,7 @@
 
 - [x] como funciona uma api rest
 - [x] armazenar o token da sessão: application, localstorage
-- [ ] errors and warnings
+- [x] errors and warnings: rodar a aplicação corretamente
 
 ### 4 home e watchlist
 
