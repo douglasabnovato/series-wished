@@ -51,6 +51,12 @@
   "name": "Claudina Thomke",
   "email": "cthomke2@cnbc.com",
   "password": "dNN8jTD"*/
+
+/* Para teste
+  "name": "Madelyn Blader",
+  "email": "mblader0@umich.edu",
+  "password": "p0KJof0PWZ"*/
+
 </script>
 <style scoped lang="scss">
     .login-page {
