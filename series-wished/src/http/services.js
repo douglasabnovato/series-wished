@@ -1,5 +1,5 @@
-import { services as auth } from '@/modules/auth'
+import { services as auth } from "@/modules/auth";
 
 export default {
-    auth
-}
+  auth
+};
