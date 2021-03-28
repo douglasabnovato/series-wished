@@ -61,7 +61,7 @@
 
 - [x] material.io - icons: npm install --save material-design-icons
 - [x] tamanhos material-design-icons: http://google.github.io/material-design-icons/
-- [x] definir stories, mutation, mutation-types, states, actions
+- [x] definir store, mutation, mutation-types, states, actions
 
 - [ ] #5 finalizando watchlist e navbar
 - [ ] #6 finalizando página da série
