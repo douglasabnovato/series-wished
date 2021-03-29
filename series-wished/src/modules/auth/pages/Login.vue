@@ -58,6 +58,7 @@ export default {
     }
   }
 };
+
 /* Para teste
   "name": "Claudina Thomke",
   "email": "cthomke2@cnbc.com",
