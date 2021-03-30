@@ -82,8 +82,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Javascript][javascript]
 - [HTML][html]: estrutura e efeitos 
 - [Git][git]
-- [Github][github] 
-- [Vuejs][vuejs] 
+- [Github][github]  
+- [Node.js](https://nodejs.org)
+- [NPM](https://www.npmjs.com/)
+- [Vue CLI](https://cli.vuejs.org/)
+- [Vue.js](https://vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Vue Resource](https://github.com/pagekit/vue-resource)
 
 ## 🚀 Como executar o projeto
 
