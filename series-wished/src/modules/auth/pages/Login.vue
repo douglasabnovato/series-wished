@@ -67,7 +67,7 @@ export default {
 /* Para teste
   "name": "Madelyn Blader",
   "email": "mblader0@umich.edu",
-  "password": "p0KJof0PWZ"*/
+  "password": "pOKJof0PWZ"*/
 </script>
 <style scoped lang="scss">
 .login-page {
