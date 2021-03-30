@@ -63,10 +63,13 @@
 - [x] tamanhos material-design-icons: http://google.github.io/material-design-icons/
 - [x] definir store, mutation, mutation-types, states, actions
 
-- [ ] #5 finalizando watchlist e navbar
-- [ ] #6 finalizando página da série
-- [ ] #7 finalizando páginas restantes
-- [ ] #8 adicionando e removendo das listas 
+### 5 finalizando watchlist e navbar
+
+### 6 finalizando página da série
+
+### 7 finalizando páginas restantes
+
+### 8 adicionando e removendo das listas 
 
 ### Web - v1.0
 
@@ -116,10 +119,10 @@ $ cd series-wished
 # Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
-$  
+# Execute a aplicação em modo de desenvolvimento - raiz do projeto series-wished
+$ npm run serve 
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# A aplicação será aberta na porta:8080 - acesse http://localhost:8080
 
 ```
 
@@ -135,10 +138,10 @@ $ cd webserver
 # Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
-$  
+# Execute a aplicação em modo de desenvolvimento - API na pasta webserver 
+$ npm run start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# A aplicação será aberta na porta:5000 - acesse http://localhost:5000
 
 ```
 
