@@ -75,6 +75,9 @@
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="SeriesWished" title="#SeriesWished" src="./src/assets/tela-1.jpg" width="400px">
+  <img alt="SeriesWished" title="#SeriesWished" src="./src/assets/tela-2.jpg" width="400px">
+  <img alt="SeriesWished" title="#SeriesWished" src="./src/assets/tela-3.jpg" width="400px">
+  <img alt="SeriesWished" title="#SeriesWished" src="./src/assets/tela-4.jpg" width="400px">
 </p> 
 
 ## 🛠 Tecnologias
